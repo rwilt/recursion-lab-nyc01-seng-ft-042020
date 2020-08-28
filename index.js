@@ -21,3 +21,20 @@ function reverseString(string) {
       return reverseString(string.substr(1)) + string.charAt(0);
     }
   }
+
+  function isPalindrome(string){
+
+
+  }
+
+  function addUpTo(arr){
+
+  }
+
+  function maxNum(arr){
+
+  }
+
+  function arrIncludes(arr, element){
+      
+  }
