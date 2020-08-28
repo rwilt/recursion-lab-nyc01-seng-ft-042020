@@ -7,9 +7,17 @@ function printString(myString){
         let mySubString = myString.substring(1, myString.length)
         printString(mySubString)
     } else {
-        console.log('done')
+
         return true
     }
 }
 
-console.log(printString("fun"))
+
+function reverseString(string) {
+    if (string === "") {
+      return "";
+    } else {
+    // recursive function is calling on a sub-problem
+      return reverseString(string.substr(1)) + string.charAt(0);
+    }
+  }
